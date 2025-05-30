@@ -1,0 +1,15 @@
+/* 标签样式 */
+.tag-1:after{
+  content: '';
+      position: absolute;
+      bottom: 0;
+      height: 4px;
+      width: 100px;
+      background-color: #37df37;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease-out;
+}
+.tag-1:hover::after{
+transform:scaleX(1);
+}

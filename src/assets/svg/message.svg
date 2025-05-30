@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" id="message">
+  <defs>
+    <linearGradient id="a" x1="11.93" x2="19.65" y1="4.63" y2="12.35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4eeec"></stop>
+      <stop offset="1" stop-color="#de856d"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="19.65" x2="27.37" y1="12.35" y2="20.07"></linearGradient>
+    <linearGradient id="c" x1="11.23" x2="28.07" y1="3.93" y2="20.77" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#92278f"></stop>
+      <stop offset="1" stop-color="#262262"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="url(#a)" d="M29.33 2.67 12 20l-8.81-4.8a1 1 0 0 1 .09-1.81Z"></path>
+  <path fill="url(#b)" d="M29.33 2.67 12 20l4.76 8.85a1 1 0 0 0 1.81-.09Z"></path>
+  <path fill="url(#c)" d="M17.68 30.33a2 2 0 0 1-1.76-1.05l-4.76-8.85a1 1 0 0 1 .17-1.18L28.63 2a1 1 0 0 1 1.63 1L19.53 29a2 2 0 0 1-1.75 1.24Zm-4.41-10.19 4.41 8.19 8.83-21.42ZM12 21a1 1 0 0 1-.47-.12l-8.81-4.8a2 2 0 0 1 .19-3.61L29 1.74a1 1 0 0 1 1 1.63l-17.25 17.3A1 1 0 0 1 12 21ZM25.09 5.5 3.67 14.32l8.19 4.41Z"></path>
+</svg>

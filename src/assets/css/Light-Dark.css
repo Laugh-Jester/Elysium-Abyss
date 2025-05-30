@@ -1,0 +1,221 @@
+/* 浅色 */
+:root{
+  /* 全局 */
+      --bkcolor: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(152,213,238,1));
+      --bkcolor-bottom:linear-gradient(to bottom,
+      rgba(152,213,238,1),          /* 天堂蓝 */
+      #5a8cb4,                      /* 渐暗天光 */
+      #2c0018,                      /* 冥界紫 */
+      #400010,                      /* 阴影红 */
+      #1a0000                       /* 地狱深渊 */);
+      --color:#171717;
+  /* 过渡 */
+  --transition-bkcolor:rgba(255,255,255,0.6);
+  /* 首页 */
+      --background-url:url('@/assets/images/background/background-1.jpg');/* 首页壁纸 */
+      --home-color:black;
+
+  /* --background-url:url('@/assets/gif/sky.gif'); */
+      --h1-color:rgb(243, 243, 243);  /* logo颜色 */
+
+  /* 导航栏相关样式 */
+      --toplist-border-shadow:0 2px 10px 2px rgba(0,0,0,0.28);
+      --toplist-color:rgb(231, 16, 123);
+  /* 首页welcome */
+      --welcome-img-url:url('../images/angle/angle.png');
+      --welcome-color:rgb(219, 26, 177);
+      --welcome-bkcolor:rgba(181, 212, 212,0.5);
+      --welcome-bdcolor:rgb(8, 243, 20);
+      --welcome-bkimg:url('../images/background/heaven.png');
+  /* 首页inctroduce */
+      --introduce-bkimg:url('../images/background/hell-1.png');
+      --introduce-bkcolor:#98d5ee;
+  /* 文章article */
+      --article-bkurl:url('../gif/sky.gif');
+      --article-msg-color:rgb(219, 26, 177);
+      --article-body-bkcolor: rgb(152, 172, 238);
+      /* 首页文章盒子 */
+      --article-titlecolor:rgb(219, 26, 177);
+      --article-dfcolor:#6f5a72;
+      --article-bkcolor:#fff1f8;
+      --article-tag-bkcolor:#ffd1dc ;
+     /* 文章页面 */
+     --article-content-dfcolor:#6f5a72;
+     --article-content-bkcolor:#fff1f8;
+      --article-content-bdcolor:rgb(8, 243, 20);
+      /* 建组页面 */
+     --construction-bkcolor:linear-gradient(to bottom right, #fdf2f8, #e0e7ff);
+     --construction-color:#666;
+     --construction-titlecolor: #444;
+     /* 标签分类页面 */
+     --tag-img-url:url('../images/background/heaven-1.png');
+     --tag-body-bkcolor:#f0f8ff;
+     --tag-content-1-bkcolor:#ffffff;
+     --tag-content-2-bkcolor:#d0e8ef;
+     --tag-content-3-bkcolor:#a3d2e2;
+     --tag-content-4-bkcolor:#e4f3ff;
+     --tag-active-bkcolor:#87cefa;
+     --tag-unactive-bkcolor:	#e6f0fa;
+     --tag-hover-shadow:rgba(0,0,0,0.7);
+     --tag-content-shadow:rgba(70, 130, 180, 0.8);
+     --tag-text-color: #1e3a5f;          /* 标签字体颜色：深海蓝 */
+     --tag-count-color: #ff5c5c;         /* 计数数字颜色：柔红 */
+     --article-text-color: #1a1a1a;      /* 正文颜色：深灰黑 */
+     --article-tag-color: #4682b4;       /* 文内标签颜色：钢蓝 */
+     --current-tag-color: #1e90ff;      /* 道奇蓝，亮度适中、醒目，极具“天堂感” */
+     /* 时钟 */
+     --clock-bkcolor:linear-gradient(to bottom, #e0f7fa, #ffffff);
+     --clock-bd:1px solid #b2ebf2;
+     --clock-bsha:0 0 10px rgba(173, 216, 230, 0.7);
+     --clock-bf-color:#0d47a1;
+     --clock-bf-bdcolor:#e3f2fd;
+     --clock-af-color:#64b5f6;
+      /* 留言页面 */
+      --msgboard--bg:url(../images//background/host-6.png);
+      --msgboard--username: #d81b60; /* 鲜明的粉红紫红色 */
+      --msgboard--text: #2c3e50; /* 深蓝灰色，良好对比 */
+      --msgboard--input-bg: rgba(255, 255, 255, 0.85);
+      --msgboard--input-border: #b39ddb;
+      --msgboard--button-bg: linear-gradient(45deg, #81d4fa, #ce93d8);
+      --msgboard--button-hover: linear-gradient(45deg, #ce93d8, #81d4fa);
+      --msgboard--panel-bg: rgba(36, 170, 204, 0.418);
+      --msgboard--panel-border: rgba(184, 131, 226, 0.596);
+      --msgboard--stats-bg: rgba(255, 255, 255, 0.9);
+      --msgboard--shadow: rgba(0, 0, 0, 0.25);
+      /* 搜素球 */
+      --searchball-bk: radial-gradient(circle at 30% 30%, #ffffff, #cceeff, #80d0ff, #66aaff);
+      --searchball-color:#4a148c;
+        --searchball--text-color: #4a148c;
+        --searchball--link-color: #6a1b9a;
+        --searchball--link-hover-bg: #e1bee7;
+        --searchball--hr: #ce93d8;
+        --searchball--empty-bg: #fff3f3;
+        --searchball--empty-text: #9c27b0;
+      /* 标签盒子 */
+      --tag-show-bkcolor: #d0f0ff;         /* 柔和天蓝，清爽干净 */
+      --tag-show-bdcolor: #00bcd4;
+      /* 上传文章 */
+      --upload-bd: radial-gradient(circle at 30% 30%, #ffffff, #f5e3e3);
+      --upload-color: #333;
+      --upload-card-bd: rgba(255, 255, 255, 0.75);
+      --upload-bdcolor: #d9474f;
+      --upload-title-color: #b12028;
+      --upload-tag-color: #8b0000;
+      --upload-btn-bkcolor:#b12028;
+      --upload-btn-bdcolor:red;
+      --upload-btn-color:white;
+}
+
+
+/* 深色 */
+:root.dark{
+  /* 全局 */
+      --bkcolor: linear-gradient(to top, #2a0f1c, #5a052c, #bc284f);
+      --color:#f7f7f7;
+      --bkcolor-bottom:linear-gradient(to top,
+       #eaf6ff,      /* 残存的天堂光（冰冷白蓝） */
+       #a4cfe7,      /* 冷调浅蓝（光线削弱） */
+       #506c9b,      /* 钴蓝，象征光被腐蚀 */
+       #3b3d5f,      /* 灰紫调，压抑感增强 */
+       #2e162e       /* 深紫黑，天堂腐坏之底 */
+      );
+   /* 过渡 */
+      --transition-bkcolor:#bc284f;
+  /* 首页 */
+      --background-url:url('@/assets/images/background/background-4.png');  /* 首页壁纸 */
+      --home-color:#FF6347;
+      --h1-color:rgb(149, 124, 218);  /* logo颜色 */
+      --home-bkcolor:rgba(255, 36, 0, 1);
+  /* 导航栏相关样式 */
+      --toplist-border-shadow:0 2px 10px 2px rgba(255,255,255,0.28);
+      --toplist-color:#00e5ff;
+  /* 首页welcome */
+      --welcome-img-url:url('../images/emoji/emoji.png');
+      --welcome-bkcolor:rgba(56, 33, 160, 0.5);
+      --welcome-bdcolor:rgb(238, 234, 26);
+      --welcome-bkimg:url('../images/background/hell.png');
+      --welcome-color:rgb(206, 114, 10);
+  /* 首页inctroduce */
+      --introduce-bkimg:url('../images/background/hell-1.png');
+      --introduce-bkcolor:#5c1a2c;
+  /* 文章article */
+      --article-bkurl:url('../images/background/hell-2.png');
+      --article-msg-color:rgb(243, 144, 31);
+      --article-body-bkcolor:#993c2b;
+      /* 首页文章盒子 */
+      --article-titlecolor:rgb(206, 114, 10);
+      --article-dfcolor:	#3a3a3a;
+      --article-bkcolor:	#ffd9a0;
+      --article-tag-bkcolor:#ff5c00;
+     /* 文章页面 */
+     --article-content-dfcolor:#3a3a3a;
+     --article-content-bkcolor:#ffd9a0;
+     --article-content-bdcolor:rgb(8, 125, 235);
+     /* 建组页面 */
+     --construction-bkcolor:linear-gradient(to bottom right, #2a0000, #5a0f0f);
+     --construction-color:	#f0e0e0;
+     --construction-titlecolor:#fefefe;
+      /* 标签分类页面 */
+     --tag-img-url:url('../images/background/heaven-1.png');
+     --tag-body-bkcolor: #1a0d0d;           /* 背景：深血红棕，营造压迫感 */
+     --tag-content-1-bkcolor: #2b0000;      /* 内容背景1：深酒红 */
+     --tag-content-2-bkcolor: #3b0a0a;      /* 内容背景2：深暗红 */
+     --tag-content-3-bkcolor: #5c1e1e;      /* 内容背景3：铁锈红 */
+     --tag-content-4-bkcolor: #7a2626;      /* 标签背景：炽热红棕 */
+     --tag-active-bkcolor: #ff4500;         /* 激活标签：烈焰橙 */
+     --tag-unactive-bkcolor: #8b0000;       /* 未激活标签：暗血红 */
+     --tag-hover-shadow:rgba(255,255,255,0.7);
+     --tag-content-shadow:rgba(255, 69, 0, 0.6); /* 炽热橙光阴影 */
+     --tag-text-color: #ffcccb;             /* 标签字体颜色：柔粉白 */
+     --tag-count-color: #ffd700;            /* 计数数字颜色：明亮金色 */
+     --article-text-color: #f5f5f5;         /* 正文颜色：灰白 */
+     --article-tag-color: #ff6347;          /* 文内标签颜色：火焰红（或番茄红） */
+     --current-tag-color: #ff3c3c;          /* 明亮血红，醒目、热烈，突出当前标签 */
+      /* 时钟 */
+     --clock-bkcolor:linear-gradient(to bottom, #4a0000, #1a0000);
+     --clock-bd: 1px solid #ff4444;
+     --clock-bsha:0 0 10px rgba(255, 0, 0, 0.6);
+     --clock-bf-color:#ff0000;
+     --clock-bf-bdcolor:#330000;
+     --clock-af-color:#fd6666;
+     /* 留言页面 */
+     --msgboard--bg:url(../images//background/host-5.png);
+     --msgboard--username: #ff5722;
+     --msgboard--text: #ffe082;
+     --msgboard--input-bg: #2e2e2ecc;
+     --msgboard--input-border: #ff7043;
+     --msgboard--button-bg: linear-gradient(45deg, #ff5722, #b71c1c);
+     --msgboard--button-hover: linear-gradient(45deg, #b71c1c, #ff5722);
+     --msgboard--panel-bg: rgba(50, 0, 0, 0.5);
+     --msgboard--panel-border: rgba(255, 87, 34, 0.4);
+     --msgboard--stats-bg: rgba(30, 0, 0, 0.7);
+     --msgboard--shadow: rgba(255, 0, 0, 0.3);
+     /* 搜素球 */
+     --searchball-bk:radial-gradient(circle at 40% 40%, #ffcccc, #b71c1c, #4a148c);
+      --searchball-color: #412b29;
+      --searchball--link-color: #ef9a9a;
+      --searchball--link-hover-bg: #b71c1c;
+      --searchball--hr: #880e4f;
+      --searchball--empty-bg: #000;
+      --searchball--empty-text: #f44336;
+      /* 标签盒子 */
+      --tag-show-bkcolor:#660000;
+      --tag-show-bdcolor:#ff2d2d;
+      /* 上传文章 */
+      --upload-bd:  radial-gradient(circle at 30% 30%, #1a1a1a, #000000);
+      --upload-color: #9b8e8e;
+      --upload-card-bd: rgba(30, 30, 30, 0.9);
+      --upload-bdcolor: #b33939;
+      --upload-title-color: #bb86fc;
+      --upload-tag-color: #ff8787;
+      --upload-btn-bkcolor:#5e17eb;
+      --upload-btn-bdcolor:black;
+      --upload-btn-color:#bb86fc;
+}
+
+
+/* 取消默认动画 */
+::view-transition-new(root),
+::view-transition-old(root){
+  animation:none;
+}

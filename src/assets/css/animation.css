@@ -1,0 +1,182 @@
+/* 变大 */
+@keyframes lager {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1.15);
+  }
+}
+
+/* 向下平移 */
+@keyframes move-down{
+  0%{
+    transform:translateY(0);
+
+  }
+  100%{
+    transform:translateY(100%);
+  }
+}
+
+
+.move-down{
+  animation:move-down 1s forwards;
+}
+
+/* 向上平移 */
+@keyframes move-up{
+  0%{
+    transform:translateY(100%);
+  }
+  100%{
+    transform:translateY(0%);
+  }
+}
+.move-up{
+  animation:move-up 1s forwards;
+}
+/* 向右移动渐现 */
+@keyframes move-right-visible{
+  0%{
+    transform:translateX(0%);
+    opacity:0;
+    z-index:1;
+  }
+  100%{
+    transform:translateX(100%);
+    opacity:1;
+    z-index:2;
+  }
+}
+.move-right-visible{
+  animation:move-right-visible 1s forwards;
+}
+/* 向左移动渐隐 */
+@keyframes move-left-hidden{
+  0%{
+    transform:translateX(100%);
+    opacity:1;
+    z-index:2;
+  }
+
+  100%{
+    transform:translateX(0%);
+    opacity:0;
+    z-index:-1;
+  }
+}
+.move-left-hidden{
+  animation:move-left-hidden 1s forwards;
+}
+/* 盒子隐藏 */
+@keyframes hidden{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+}
+
+.hidden{
+  animation:hidden 0.2s forwards;
+}
+
+/* 盒子浮现 */
+@keyframes visible{
+  0%{
+    transform:translateY(-100%);
+    opacity:0;
+  }
+  100%{
+    transform:translateY(0%);
+    opacity:1;
+  }
+}
+
+.visible{
+  animation:visible 1s forwards;
+}
+
+/* 向左渐现 */
+@keyframes move-left-visible{
+  0%{
+    transform:translateX(0%);
+    opacity:1;
+    z-index:1;
+  }
+  100%{
+    transform:translateX(-100%);
+    opacity:1;
+    z-index:2;
+  }
+}
+.move-left-visible{
+  animation:move-left-visible 1s forwards;
+}
+
+/* 向右渐隐 */
+@keyframes move-right-hidden{
+  0%{
+    transform:translateX(-100%);
+    opacity:1;
+    z-index:2;
+  }
+  50%{
+    transform:translateX(-50%);
+    opacity:0;
+    z-index:-1;
+  }
+  100%{
+    transform:translateX(0%);
+    opacity:0;
+    z-index:-1;
+  }
+}
+.move-right-hidden{
+  animation:move-right-hidden 1s forwards;
+}
+
+
+.rotate{
+  transition:all 0.4s ease;
+}
+.rotate:hover{
+  transform:rotate(360deg);
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 8px #ffcad4, 0 0 15px #ffc9a9;
+  }
+  50% {
+    text-shadow: 0 0 15px #ffc9a9, 0 0 30px #ffd1a9;
+  }
+}
+
+@keyframes floatUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes moveWaves {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  100% {
+    transform: translate(25%, 25%) rotate(360deg);
+  }
+}
